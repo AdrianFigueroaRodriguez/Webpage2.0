@@ -1,0 +1,19 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 26px 0px;
+    width: 100vw;
+    height: auto;
+}
+
+#nav{
+    margin: 26px 26px 0px 26px;
+    background-color: #2699FB;   
+}
