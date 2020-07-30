@@ -1,5 +1,8 @@
 html{
     box-sizing: border-box;
+    width: 100%;
+    height: auto;
+
 }
 
 *, *:before, *:after{
@@ -7,36 +10,200 @@ html{
 }
 
 body{
-    background-color: white;
+    background-color: #2699FB;
     margin: 26px 0px;
-    width: 100vw;
+    width: 100%;
+    min-width: 240px;
     height: auto;
+    min-height: 570px;
+    background: url('/Assets/is\ Background.png') center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
 
 .container-fluid{
     padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
 }
 
 nav{
-    margin: 26px 26px 0px 26px;
+    padding: 26px 26px 0px 26px;
     background-color: #2699FB;
     height: 70px; 
 }
 
+.navbar{
+    padding: 5px 0px;
+}
+
+#navbarNavAltMarkup{
+    background-color: #2699FB;
+    border-top: #ffffff solid 2px;
+    border-bottom: #ffffff solid 1px;
+}
+
+.nav-item{
+    color: white;
+}
+
+.is{
+    opacity: 0.01%;
+    transition: 1s all ease-in-out 0ms;
+}
+
+#is-ml{
+    visibility: hidden;
+    margin-left: 16px;
+    transition: 1s all ease-in-out 0ms;
+}
+
+#is-mi{
+    margin-right: 16px;
+    transition: 1s all ease-in-out 0ms;
+}
+
+#is-l{
+    transition: 1s all ease-in-out 0ms;
+}
+
+#is-s{
+    transition: 1s all ease-in-out 0ms;
+}
+
+.ms{
+    opacity: 0.01%;
+    border-top: #ffffff solid 10px;
+    transition: 1s all ease-in-out 0ms;
+}
+
+.ms-vp{
+    height: 0px;
+    transition: 1s all ease-in-out 0ms;
+}
+
+#ms-vp-c{
+    height: 0px;
+    transition: 1s all ease-in-out 0ms;
+}
+
+#ms-vp-v{
+    height: 0px;
+    width: 100%;
+    background-color: transparent;
+    transition: 1s all ease-in-out 0ms;
+}
+
+#ms-vp-smc{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    background-color:transparent;
+}
+
+.sm-i{
+    padding-top: 14px;
+    margin: 0px;
+}
+
+.sm-logo{
+    max-width: 35px;
+    background-color: transparent;
+}
+
+#wa-l{
+   max-width: 40px;
+   max-height: 40px;
+}
+
+.ms-ns{
+    width: 100%;
+    padding: 0px;
+}
+
+#ms-ns-sc{ 
+    margin: 0px;
+    width: 100%;
+    height: 0px;
+    max-width: 700px;
+    max-height: auto;
+    padding: 26px 26px 13px 26px;
+}
+
+#ns-i{
+    widtH: 100%;
+    min-width: 200px;
+    max-width: 700px;
+    max-height: auto;
+}
+
+#ns-c{
+    padding: 13px 26px 26px 26px;
+}
+
+#ns-c h1{
+    min-width: 300px;
+}
+
+
+
+.f{
+    height: 0px;
+    width: 100%;
+    opacity: 0.01%;
+    transition: 1s all ease-in-out 0ms;
+}
+
+.fs{
+    height: 0px;
+    background-color: #7FC4FD;
+    transition: 1s all ease-in-out 0ms;
+}
+
+.fi{
+    height: 0px;
+    background-color: #2699FB;
+    transition: 1s all ease-in-out 0ms;
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-
+    #is-si{
+        width: 100%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 729.98px) {
+    #is-si{
+        width: 100%;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 730px) and (max-width: 991.98px) {
+    #ms-ns-c{
+        display: flex;
+    }
+    #ns-c{
+        padding: 26px 13px 26px 0px;
+    }
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #ms-ns-c{
+        display: flex;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+    #ms-ns-c{
+        display: flex;
+    }
+}

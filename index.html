@@ -16,66 +16,95 @@
     <!-- Personal CSS-->
     <link rel="stylesheet" href="/CSS/index.css"> 
   </head>
-  <body class="container">
-    <div id="mc" class="">
-      <header id="header"></header>
-      <nav id="nav" class="navbar sticky-top">
-        <a class="navbar-brand" href="#">
-          <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-          Bootstrap
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </div>
+  <body class="container-fluid">
+    <header id="header"></header>
+    <nav class="navbar sticky-top is">
+      <a class="is" href="#">
+        <img id="is-ml" src="/Assets/Logo Figueroas Clean.svg" width="60" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+      </a>
+      <button class="navbar-toggler" id="is-mi" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="navbar-toggler-icon" src="Assets/nav Hamburger icon.svg">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-center">
+          <a class="nav-item nav-link" href="#">Inicio</a>
+          <a class="nav-item nav-link" href="#">Nuestros servicios</a>
+          <a class="nav-item nav-link" href="#">Cotizaciones</a>
+          <a class="nav-item nav-link" href="#">Contactanos</a>
+          <!-- Disabled link -->
+          <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
         </div>
-      </nav>
-      <main id="main">
-        <section id="is"> <!-- Initial Screen -->
-            <div clas="card"></div>
+      </div>
+    </nav>
+    <main id="main">
+      <section class="is"> <!-- Initial Screen -->
+        <section id="is-l"> <!-- Logo -->
+          <figure >
+            <img class="rounded mx-auto d-block" src="Assets/Logo Figueroas Clean.svg">
+          </figure>
         </section>
-        <section id="ms"> <!-- Main screen-->
-          <section id="vp"> <!-- Video player-->
-  
-          </section>
-          <section id="ns"> <!-- Nosotros somos -->
-  
-          </section>
-          <section id="mv"> <!-- Mision y vision-->
-  
-          </section>
-          <section id="cs"> <!-- Cartas de servicios-->
-  
-          </section>
+        <section id="is-s"> <!-- Slogan-->
+          <figure>
+            <img id="is-si" class="rounded mx-auto d-block" src="/Assets/is Slogan.png">
+          </figure>
         </section>
-        
-      </main>
-      <footer id="footer">
-        <section id="fs"> <!-- Footer superior-->
-  
+      </section>
+      <section class="ms"> <!-- Main screen-->
+        <section class="ms-vp d-flex" id="ms-vp-c"> <!-- Video player-->
+          <video clss="w-100" id="ms-vp-v" autoplay loop muted>
+            <source  src="/Assets/vp Video prueba.MP4" type="video/mp4">
+          </video>
+          <div id="ms-vp-smc" class="flex-shrink-0">
+            <figure class="sm-i">
+              <a href="https://web.whatsapp.com/" class="button">
+                  <img class="sm-logo" id="wa-l" src='/Assets/vp wa Logo.svg'>
+              </a>
+            </figure>
+            <figure class="sm-i">
+              <a href="https://www.messenger.com/t/Figueroasclean1" class="button">
+                  <img class="sm-logo" src="/Assets/vp ms Logo.png">
+              </a>
+            </figure>
+            <figure class="sm-i"> 
+                <a href="https://www.facebook.com/Figueroasclean1/" class="button">
+                    <img class="sm-logo" src="Assets/vp fb Logo.png">
+                </a>
+            </figure>
+            <figure class="sm-i">
+              <a href="https://www.instagram.com/figueroasclean_jrz/" class="button">
+                  <img class="sm-logo" src="/Assets/vp ig Logo.png">
+              </a>
+            </figure>
+          </div>
         </section>
-        <section id="fi"> <!-- Footer inferior-->
-  
+        <section class="ms-ns" id="ms-ns-c"> <!-- Nosotros somos -->
+          <figure class="col col-sm-8 col-md-7" id="ms-ns-sc">
+            <img id="ns-i"src="/Assets/ns Image.jpg">
+          </figure>
+          <div class="col col-sm-4 col-md-5" id="ns-c">
+            <h1 class="text-center">Nosotros Somos</h1>
+            <p class="text-justify"> Somos una empresa seria y responsable dedicada al cuidado de la salud.</p>
+          </div>
         </section>
-      </footer>
-    </div>
- 
-
-
-
-
-
-
-
-
-
-
+        <section class="ms-mv"> <!-- Mision y vision-->
+          Mision y visino
+        </section>
+        <section class="ms-cs"> <!-- Cartas de servicios-->
+          servicios
+        </section>
+      </section>
+      
+    </main>
+    <footer>
+      <section class='f'>
+        <section class="fs"> <!-- Footer superior-->
+          
+        </section>
+        <section class="fi"> <!-- Footer inferior-->
+          
+        </section>
+      </section>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery js-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
