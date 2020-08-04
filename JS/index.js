@@ -58,6 +58,9 @@ setTimeout(function(){
     $('#ms-vp-v').css('opacity', '100%');
     $('#ms-vp-v').css('min-height', '400px');
     $('#ms-vp-v').css('background-color', 'black');
+    $('#ms-ns-c').css('height', 'auto');
+    $('#ms-mv-c').css('height', 'auto');
+    $('#ms-cs-c').css('height', 'auto');
     $('.f').css('height', '240px');
     $('.fs').css('height', '190px');
     $('.fi').css('height', '50px');

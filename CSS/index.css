@@ -125,6 +125,10 @@ nav{
     padding: 0px;
 }
 
+#ms-ns-c{
+    height: 0px;
+}
+
 #ms-ns-sc{ 
     margin: 0px;
     width: 100%;
@@ -142,14 +146,28 @@ nav{
 }
 
 #ns-c{
-    padding: 13px 26px 26px 26px;
+    padding: 13px 26px;
 }
 
-#ns-c h1{
-    min-width: 300px;
+.ms-mv{
+    padding: 13px 26px;
 }
 
+#ms-mv-c{
+    height: 0px;
+}
 
+.ms-cs{
+    padding: 13px 26px;
+}
+
+#ms-cs-c{
+    height: 0px;
+}
+
+#C-Card-Container{
+    background-color: white;
+}
 
 .f{
     height: 0px;
@@ -189,6 +207,7 @@ nav{
     #ms-ns-c{
         display: flex;
     }
+
     #ns-c{
         padding: 26px 13px 26px 0px;
     }
